@@ -1,0 +1,54 @@
+:root {
+  /* Colors - Modern, Clean, Clinical */
+  --primary-color: #E63946; /* Brand Red for accents and CTAs */
+  --primary-hover: #D62828; 
+  --text-primary: #2B2D42; /* Dark navy-grey for high readability */
+  --text-secondary: #5C677D; /* Softer text for descriptions */
+  --text-light: #8D99AE;
+  
+  --bg-primary: #FFFFFF; /* Pure white */
+  --bg-secondary: #F8F9FA; /* Light clinical grey for alternating sections */
+  --bg-tertiary: #EDF2F4; /* Slightly darker grey for borders/cards */
+
+  --border-color: #E2E8F0;
+
+  /* Typography */
+  --font-main: 'Inter', 'Roboto', sans-serif;
+  --font-heading: 'Outfit', 'Inter', sans-serif;
+
+  /* Typography Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-24: 6rem;
+
+  /* Shadows for Trust/Elegance */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.025);
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+}

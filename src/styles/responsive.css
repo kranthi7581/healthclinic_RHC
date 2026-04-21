@@ -1,0 +1,76 @@
+/* Responsive breakpoints for the clinic website */
+
+/* Small Devices (Phones, 640px and below) */
+@media (max-width: 640px) {
+    :root {
+        --text-4xl: 2rem;
+        --text-3xl: 1.75rem;
+        --text-2xl: 1.25rem;
+
+        --spacing-16: 3rem;
+        /* Less padding on mobile */
+        --spacing-24: 4rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--spacing-6);
+    }
+
+    .nav-menu {
+        display: none;
+        /* Will handle mobile menu with JS state */
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+}
+
+/* Medium Devices (Tablets, 641px - 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-6);
+    }
+
+    .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Degrades to 2 columns on tablet */
+        gap: var(--spacing-6);
+    }
+
+    .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-6);
+    }
+}
+
+/* Large Devices (Desktops, 1025px and up) */
+@media (min-width: 1025px) {
+    .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-8);
+    }
+
+    .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--spacing-8);
+    }
+
+    .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-8);
+    }
+
+    .mobile-menu-btn {
+        display: none;
+    }
+}

@@ -6,14 +6,15 @@
 
 ---
 **#Screenshots**
+
 HEADER and HERO section
-![Alt Text]()
+![Alt Text](https://github.com/kranthi7581/healthclinic_RHC/blob/main/ScreenShots/hero.png)
 
 FOOTER section
-![Alt Text]()
+![Alt Text](https://github.com/kranthi7581/healthclinic_RHC/blob/main/ScreenShots/footer.png)
 
 Mobile view
-![Alt Text]()
+![Alt Text](https://github.com/kranthi7581/healthclinic_RHC/blob/main/ScreenShots/mobile.png)
 
 ## 📌 Overview
 

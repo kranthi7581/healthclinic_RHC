@@ -27,7 +27,7 @@ const Footer = () => {
             Nagar. Providing accurate diagnosis, minimal medication, and
             patient-centered care.
           </p>
-          <div className="flex items-center gap-2 bg-[#2A3143] inline-flex px-3 py-1.5 rounded-md text-sm font-medium">
+          <div className="flex items-center gap-2 bg-[#2A3143]  px-3 py-1.5 rounded-md text-sm font-medium">
             <span className="text-yellow-400">★</span>
             <span>{clinicInfo.rating} Rating</span>
             <span className="text-gray-400 mx-1">•</span>
